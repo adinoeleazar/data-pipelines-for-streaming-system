@@ -144,7 +144,7 @@ spark-consume:
 	@echo '__________________________________________________________'
 	@docker exec ${SPARK_WORKER_CONTAINER_NAME}-1 \
 		spark-submit \
-		/spark-scripts/spark-event-consumer.py
+		/spark-scripts/event_consumer.py
 
 datahub-createx:
 	@echo '__________________________________________________________'
